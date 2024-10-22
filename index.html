@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SiqueCoffe</title>
     <meta name="description" content="Explore dezenas de variações da bebida favorita dos devs ao redor do mundo!">
-    <link rel="stylesheet" href="./CSS/style.css">  
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
     <link rel="shortcut icon" href="assets/img/cafe.png" type="image/x-icon">
 </head>
 
 <body>
 
     <header>
-        <nav>
+        <nav class="nav">
             <span class="logo">SiqueCoffe</span>
+
+            <input type="checkbox" class="menu-fake">
+
+            <div class="menu-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <ul class="menu">
-                <li><a>HOME</a></li>
-                <li><a>RECEITAS</a></li>
-                <li><a>NOIDADES</a></li>
-                <li><a>MELHOR AVALIADAS</a></li>
+                <li class="list"><a>home</a></li>
+                <li class="list"><a>receitas</a></li>
+                <li class="list"><a>novidades</a></li>
+                <li class="list"><a>melhor avaliados</a></li>
             </ul>
             <a class="github" target="_blank" href="https://github.com/joaovictorsiqueira">GitHub</a>
         </nav>
@@ -33,7 +43,8 @@
                     <span class="destaque marrom">novidade</span>
                     <h1>Encontre a receita perfeita!</h1>
                     <hr>
-                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita dos <strong>devs</strong> ao redor do mundo!</h2>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita dos <strong>devs</strong>
+                        ao redor do mundo!</h2>
                 </header>
                 <div class="hero-img-container">
                     <figure><img src="assets/img/image1.jpg" alt=""></figure>
